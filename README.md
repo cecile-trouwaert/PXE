@@ -134,15 +134,24 @@ Set-WdsBootImage -SecureBoot Enabled
 Ce projet nous a permis de mettre en place une infrastructure complète de déploiement automatisé de stations de travail Windows via un serveur PXE. Grâce à l’utilisation de Windows Deployment Services (WDS), d’Active Directory et de scripts PowerShell, nous avons automatisé l’installation et l’intégration des machines dans un domaine, réduisant ainsi les interventions manuelles et accélérant le déploiement à grande échelle.
 
 Bilan des Acquis
+
 ✔ Maîtrise de l’écosystème PXE : Compréhension des protocoles DHCP, TFTP et du processus de boot réseau.
+
 ✔ Automatisation PowerShell : Création de scripts pour la configuration du serveur et l’intégration des clients au domaine.
+
 ✔ Gestion d’images : Utilisation de Windows ADK pour générer et personnaliser des images WinPE et Windows.
+
 ✔ Sécurisation du déploiement : Mise en place de restrictions d’accès et de vérification d’intégrité des images.
 
+
 Perspectives d’Amélioration
+
 🔹 Intégration avec MDT (Microsoft Deployment Toolkit) pour une gestion encore plus avancée des déploiements.
+
 🔹 Déploiement hybride (cloud/on-premise) avec Azure DevOps pour des scénarios hybrides.
+
 🔹 Automatisation renforcée via Ansible ou DSC (Desired State Configuration) pour une gestion infrastructure-as-code.
+
 
 Ce projet illustre parfaitement l’importance de l’automatisation dans l’administration système, permettant de gagner en efficacité tout en garantissant une meilleure cohérence des environnements déployés.
 
