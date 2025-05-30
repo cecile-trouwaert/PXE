@@ -1,4 +1,4 @@
-Documentation du Projet PXE - Déploiement Automatisé de Workstations Windows
+Projet PXE - Déploiement Automatisé de Workstations Windows
 
 📌 Introduction
 Ce projet a pour objectif de mettre en place une infrastructure permettant le déploiement automatique de stations de travail Windows via un serveur PXE (Preboot eXecution Environment). L'ensemble comprend :
@@ -97,6 +97,7 @@ dism /export-image /sourceimagefile:D:\WinPE_amd64\media\sources\boot.wim /sourc
 Ajout au serveur WDS
 powershell
 Add-WdsInstallImage -Path "D:\PXE_Images\WinPE_Custom.wim" -ImageName "WinPE Custom" -ImageGroup "PXE_Images"
+
 💻 Job 3 - Déploiement Client
 Processus de boot PXE
 Client envoie requête DHCP
